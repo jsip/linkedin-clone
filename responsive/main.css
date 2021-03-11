@@ -1,5 +1,5 @@
-main {
-    /* background-color: #e6e6e6; */
+body {
+    background-color: #f3f2ef !important;
 }
 
 ion-icon {
@@ -21,6 +21,10 @@ ion-icon {
 .navLogo {
     width: 1.5em;
     height: auto;
+}
+
+header {
+    background-color: white !important;
 }
 
 ion-icon {
@@ -62,4 +66,8 @@ input  {
 
 .list-group-item {
     margin: 0 0.25em;
+}
+
+.members-radius > .list-group-item {
+    border-radius: 15px;
 }

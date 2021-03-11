@@ -6,4 +6,5 @@
 
 .list-group-item {
     margin: 0.5em 0.25em;
+    border-radius: 15px;
 }

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Demo LinkedIn</title>
+    <link rel="stylesheet" href="/root.scss">
     <link rel="stylesheet" href="./main.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
@@ -17,87 +18,90 @@
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <img src="https://static-exp1.licdn.com/sc/h/5r5dllmybz1bkq0dbhfq0sb84" alt="LinkedIn Logo"
-                class="navbar-brand navLogo">
-            <form class="form-inline form-group my-2 my-lg-0">
-                <input class="form-control mr-sm-2 bg-light col-md-12" type="search" placeholder="🔎 Recherche">
-            </form>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <ion-icon name="home-sharp"></ion-icon><br>
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <ion-icon name="people-sharp"></ion-icon><br>
-                            My Network
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <ion-icon name="briefcase"></ion-icon><br>
-                            Jobs
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <ion-icon name="chatbubble-ellipses-sharp"></ion-icon><br>
-                            Messaging
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <ion-icon name="notifications-sharp"></ion-icon><br>
-                            Notifications
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-expanded="false">
-                            <ion-icon name="person-circle-outline"></ion-icon><br>
-                            Me
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown" id="workSeparation">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-expanded="false">
-                            <ion-icon name="apps-sharp"></ion-icon><br>
-                            Work
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" id="salesNavigator">Get Sales<br>Navigator</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <img src="https://static-exp1.licdn.com/sc/h/5r5dllmybz1bkq0dbhfq0sb84" alt="LinkedIn Logo"
+                    class="navbar-brand navLogo">
+                <form class="form-inline form-group my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 bg-light col-md-12" type="search" placeholder="🔎 Recherche">
+                </form>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                <ion-icon name="home-sharp"></ion-icon><br>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <ion-icon name="people-sharp"></ion-icon><br>
+                                My Network
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <ion-icon name="briefcase"></ion-icon><br>
+                                Jobs
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <ion-icon name="chatbubble-ellipses-sharp"></ion-icon><br>
+                                Messaging
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <ion-icon name="notifications-sharp"></ion-icon><br>
+                                Notifications
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">
+                                <ion-icon name="person-circle-outline"></ion-icon><br>
+                                Me
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" id="workSeparation">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">
+                                <ion-icon name="apps-sharp"></ion-icon><br>
+                                Work
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" target="_blank" href="../add-widget/index.html">Widget Ajout</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="../invitation/index.html">Invitations</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="../members/index.html">Similaires</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" target="_blank" href="../navbar/index.html">Header</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="../sidebar/index.html">Sidebar</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="salesNavigator">Get Sales<br>Navigator</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <br>
     <main class="container">
@@ -224,7 +228,7 @@
             <div class="col-sm-8">
                 <div class="list-group-item list-group-item-action">
                     <div class="row">
-                        <div class="col-sm-2 profile-img">
+                        <div class="col-md-auto profile-img">
                             <img class="profile-img" src="../add-widget/2159.jpg" alt="">
                         </div>
                         <div class="col">
@@ -251,12 +255,12 @@
                     </div>
                     <div class="list-group-item list-group-item-action">
                         <div class="row">
-                            <div class="col-sm-2">
+                            <div class="col-md-auto">
                                 <img class="profile-img"
                                     src="https://mattdominance.com/wp-content/uploads/2020/10/Elon-Musk-late-1990%C2%B4s-1024x768.jpg"
                                     alt="">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-6">
                                 <h5>Elon Musk</h5>
                                 <small>Founder @ SpaceX, Tesla, OpenAI & The Boring Company</small><br>
                                 <small class="text-muted">Daniel Tunkelang et 10 autres relations</small><br>
@@ -269,12 +273,11 @@
                     </div>
                     <div class="list-group-item list-group-item-action">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-md-auto">
                                 <img class="profile-img"
-                                    src="https://pbs.twimg.com/profile_images/1335939208595329025/6pVApHxk_400x400.jpg"
-                                    alt="">
+                                    src="https://pbs.twimg.com/profile_images/1335939208595329025/6pVApHxk_400x400.jpg" alt="">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-6">
                                 <h5>David Guetta</h5>
                                 <small>Founder & CEO at YCombinator</small><br>
                                 <small class="text-muted">Madria Rene et 80 autres relations</small><br>
@@ -287,11 +290,11 @@
                     </div>
                     <div class="list-group-item list-group-item-action">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-md-auto">
                                 <img class="profile-img"
                                     src="https://bostonglobe-prod.cdn.arcpublishing.com/resizer/zdbIllNKbw6GyGEFZkjSFY10r4Q=/1440x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/BPCJBKCB5QI6LLWUOB3RSPGQXQ.jpg">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-6">
                                 <h5>Dave Portnoy</h5>
                                 <small>Founder @ Barstool Sports and Davey Day Trader Global</small><br>
                                 <small class="text-muted">Daniel Tunkelang et 10 autres relations</small><br>
@@ -315,8 +318,8 @@
                     <div class="list-group-item list-group-item-action">
                         Personnes avec des rôles similaires que vous pourriez connaître
                         <span class="float-right">Tout les voir</span>
-                        <br>
-                        <div class="row text-center">
+                        <br><br>
+                        <div class="row text-center members-radius">
                             <div class="col list-group-item list-group-item-action">
                                 <img class="profile-img"
                                     src="https://media-exp1.licdn.com/dms/image/C5603AQFb_5EPJ28Hwg/profile-displayphoto-shrink_200_200/0/1606835614158?e=1620864000&v=beta&t=4gN6oYbMCyZrLeZRVXawdh3_nN1CdVAk1jRBuUQM4hY"
@@ -354,7 +357,7 @@
                                 <button class="btn btn-outline-primary">Se Connecter</button>
                             </div>
                         </div>
-                        <div class="row text-center">
+                        <div class="row text-center members-radius">
                             <div class="col list-group-item list-group-item-action">
                                 <img class="profile-img"
                                     src="https://hope4cities.files.wordpress.com/2017/05/grouper-headshot.jpg" alt="">
