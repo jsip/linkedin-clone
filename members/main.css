@@ -1,0 +1,9 @@
+.profile-img {
+    border-radius: 50%;
+    height: 72px;
+    width: 72px;
+}
+
+.list-group-item {
+    margin: 0.5em 0.25em;
+}
