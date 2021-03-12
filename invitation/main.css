@@ -2,4 +2,5 @@
     border-radius: 50%;
     height: 72px;
     width: 72px;
+    object-fit: cover;
 }
